@@ -40,3 +40,19 @@ border: 1px solid rgba(255, 255, 255, 0.26);
 .animate-heartbeat {
   animation: heartbeat 1s infinite;
 }
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 500ms ease;
+
+}
+
+
+#text-grey{
+  color:  #777;
+}

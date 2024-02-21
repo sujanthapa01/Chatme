@@ -1,4 +1,6 @@
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // images
 import Likeme from "./Likeme.png";
 import Html from './Html.png'
@@ -10,11 +12,15 @@ import Heart from './Heart.png'
 
 
 export default function Projects() {
+    useEffect(() => {
+        AOS.init(); // Initialize AOS when component mounts
+      }, []);
+    
     return (
 
-        <div className="flex justify-center">
-            <div className="Projects blue-box-shadow p-6 md:p-0 xl:p-0 m-3 w-[20rem] h-[30rem] flex flex-col md:flex-row xl:flex-row bg-zinc-200 xl:w-[40rem] md:w-[40rem] rounded-2xl md:h-auto xl:h-auto">
-                <div className="relative w-auto h-[10rem] md:w-[50%] md:h-[20rem] xl:w-[50%] xl:h-[20rem]">
+        <div className="flex justify-center ">
+            <div className="Projects blue-box-shadow p-6 md:p-0 xl:p-0 m-3 w-[20rem] h-[30rem] flex flex-col md:flex-row xl:flex-row bg-zinc-200 xl:w-[40rem] md:w-[40rem] rounded-2xl md:h-auto xl:h-auto "   data-aos="zoom-out">
+                <div className="relative w-auto h-[10rem] md:w-[50%] md:h-[20rem] xl:w-[50%] xl:h-[20rem]"> 
                     <img className="absolute inset-0 w-full h-full object-cover md:object-fill xl:object-fill rounded-2xl" src={Likeme} alt="Likeme!" />
                     <div className="absolute inset-0 bg-black opacity-20 rounded-2xl transition-opacity duration-300 hover:opacity-40"></div>
                     {/* Image */}
