@@ -56,3 +56,7 @@ border: 1px solid rgba(255, 255, 255, 0.26);
 #text-grey{
   color:  #777;
 }
+
+.bg-gradient{
+  background: radial-gradient(circle, rgba(174,223,238,1) 0%, rgba(148,187,233,1) 100%);
+}

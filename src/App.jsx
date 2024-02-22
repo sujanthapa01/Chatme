@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./pages/Navigation";
 import Profile from "./pages/profile/Profile";
 import Comments from './pages/comments/Comments'
-import Setting from './pages/Setting'
+import Login from "./pages/Login";
 import BackButton from "./components/BackButton/BackButton";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Navigation/>} />
           <Route path="Profile" element={<Profile />} />
           <Route path="Comments" element={<Comments />} />
-          <Route path="Setting" element={<Setting />} />
+          <Route path="Login" element={<Login/>} />
         </Routes>
       </main>
     </BrowserRouter>

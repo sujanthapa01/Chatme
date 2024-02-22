@@ -8,10 +8,15 @@ import BackButton from "../../components/BackButton/BackButton";
 import Projects from "../../components/BackButton/Projects/Projects";
 import SocialMedia from '../../components/SocialMedia/SocialMedia';
 
+// auth0
+import { useAuth0 } from "@auth0/auth0-react";
+
 export default function Profile() {
   useEffect(() => {
     AOS.init(); // Initialize AOS when component mounts
   }, []);
+
+  const { user ,isAuthenticated} = useAuth0()
 
   return (
     <div>
@@ -26,7 +31,7 @@ export default function Profile() {
           data-aos="zoom-out"
         />
         <h1 className="kode-mono-text text-[1.5rem] my-4 md:text-[4rem] xl:text-[4rem]">
-          Hey i'm a <span></span>
+          Hey {isAuthenticated && <span className='text-green-300'>{user.given_name}!</span>}  i'm <span></span>
           <a href="https://www.instagram.com/idkconundrum_/" target="_blank" className="cursor-pointer  hover:underline decoration-from-font ">Sujan Thapa</a>
         </h1>
       </div>
