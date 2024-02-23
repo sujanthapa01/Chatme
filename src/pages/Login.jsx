@@ -7,7 +7,6 @@ import UnderDev from "./UnderDev.png";
 
 export default function Login() {
     const { user, loginWithRedirect, logout, isAuthenticated } = useAuth0(); // Destructure loginWithRedirect, logout, and isAuthenticated from useAuth0
-    console.log(user);
     // Define state for LoginButton component
     const [LoginButton, setLoginButton] = useState(() => {
         const handleLogin = () => {
