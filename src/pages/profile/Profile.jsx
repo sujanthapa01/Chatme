@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import profile from "./profile.jpeg";
 // components
 import BackButton from "../../components/BackButton/BackButton";
-import Projects from "../../components/BackButton/Projects/Projects";
+import Projects from "../../components/Projects/Projects";
 import SocialMedia from "../../components/SocialMedia/SocialMedia";
 
 // auth0
