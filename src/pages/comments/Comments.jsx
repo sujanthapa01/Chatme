@@ -142,7 +142,7 @@ export default function Comments() {
           </div>
         </main>
       ) : (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center flex-col items-center h-screen">
           <h1 font-bold text-3xl >Please Login For Comment!</h1>
           <div>
             <BackButton className="" />
