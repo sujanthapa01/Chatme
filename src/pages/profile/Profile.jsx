@@ -24,11 +24,17 @@ export default function Profile() {
         <h1
           className="kode-mono-text text-[4rem] text-center p-4 underline decoration-from-font"
           data-aos="fade-down"
+        ></h1>
+
+        <header />
+        <h1
+          className="kode-mono-text text-[4rem] text-center p-4 underline decoration-from-font"
+          data-aos="fade-down"
         >
           Profile
         </h1>
       </header>
-      <div className="flex justify-center items-center flex-col my-8 ">
+      <div className="flex justify-center items-center text-center flex-col my-8 ">
         <img
           className="h-64 w-64 shadow-stone-400 shadow-md  rounded-3xl hover:shadow-purple-300  duration-200 "
           src={profile}
@@ -53,7 +59,9 @@ export default function Profile() {
 
       <div className="flex flex-col md:flex-row xl:flex-row ">
         <div className=" w-screen p-8 md:w-[50%] xl:w-[50%] ">
-          <h1 className="kode-mono-text text-3xl  flex items-center ">About <span className="text-sm" >- Sujan Thapa</span> </h1>
+          <h1 className="kode-mono-text text-3xl  flex items-center ">
+            About <span className="text-sm">- Sujan Thapa</span>{" "}
+          </h1>
           <span>
             Hey there! He's Sujan Thapa, a web developer from Dharamshala,
             India. He loves making websites run smoothly. Currently, he's diving
