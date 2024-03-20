@@ -73,23 +73,7 @@ export default function Profile() {
             awesome place, step by step!
           </span>
         </div>
-        <div className=" w-screen p-8 md:w-[50%] xl:w-[50%]">
-          <h1 className="kode-mono-text text-3xl">this is heading</h1>
-          <span>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque,
-            nobis dicta. Tenetur quae voluptatum necessitatibus accusantium ex
-            quaerat amet in esse earum laudantium quis doloribus labore hic,
-            facere culpa molestias est sed! Quod voluptatibus officia sit nam
-            vitae laboriosam minima repudiandae vero saepe asperiores, molestias
-            quia libero iusto laudantium autem cum tenetur eum esse odit qui
-            perspiciatis aliquid doloremque. Doloribus, eos voluptatum esse
-            facere maiores sit nulla officiis natus autem ut voluptate dolores
-            distinctio accusamus consectetur inventore quae reiciendis cumque?
-            Unde, aut dolorem. Natus, sint. Est natus error dolorum, corrupti
-            sit inventore nisi nostrum officiis perferendis magni assumenda
-            architecto.
-          </span>
-        </div>
+        
       </div>
 
       <section className="">
