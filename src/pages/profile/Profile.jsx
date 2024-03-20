@@ -57,8 +57,8 @@ export default function Profile() {
         </h1>
       </div>
 
-      <div className="flex flex-col md:flex-row xl:flex-row ">
-        <div className=" w-screen p-8 md:w-[50%] xl:w-[50%] ">
+      <div className="flex flex-col  ">
+        <div className=" w-screen p-8  ">
           <h1 className="kode-mono-text text-3xl  flex items-center ">
             About <span className="text-sm">- Sujan Thapa</span>{" "}
           </h1>
