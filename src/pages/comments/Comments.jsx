@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import BackButton from "../../components/BackButton/BackButton";
 import { useAuth0 } from "@auth0/auth0-react";
 import { getDatabase, ref, push, onValue, get, set } from "firebase/database";
-import app from "../../firebaseConfig.jsx";
+import app from "../../firebaseConfig.js";
 
 async function fetchComments() {
   const db = getDatabase(app);
@@ -90,7 +90,7 @@ export default function Comments() {
 
   return (
     <div className="flex flex-col justify-center overflow-x-hidden items-center md:gap-12 xl:gap-12">
-      <h1 className="text-3xl py-2">Comments</h1>
+      <h1 className="text-3xl py-2">Chats</h1>
 
       {isAuthenticated ? (
         <main className="flex flex-col justify-start h-screen items-center gap-2 w-screen">
