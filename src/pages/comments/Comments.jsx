@@ -110,7 +110,7 @@ export default function Comments() {
                   </div>
                   <div className="text-black flex gap-4">
                     <div className="flex gap-2 flex-col-reverse">
-                      <p> {comment.Username}</p>
+                      <p> {comment.Username} : </p>
                       {/* <p> {new Date(comment.Timestamp).toLocaleString()}</p> */}
                     </div>
                     <span>
